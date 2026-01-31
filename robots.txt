@@ -1,0 +1,40 @@
+User-agent: *
+Allow: /
+Disallow: /admin/
+Disallow: /private/
+Disallow: /wp-admin/
+Disallow: /wp-includes/
+Disallow: /search/
+Disallow: /?s=
+
+Crawl-delay: 10
+
+Sitemap: https://nexgenaitech.com/sitemap.xml
+
+# Googlebot
+User-agent: Googlebot
+Allow: /
+Disallow: /admin/
+
+# Bingbot
+User-agent: Bingbot
+Allow: /
+Disallow: /admin/
+
+# Yandex
+User-agent: Yandex
+Allow: /
+Disallow: /admin/
+
+# Block AI crawlers
+User-agent: GPTBot
+Disallow: /
+
+User-agent: ChatGPT-User
+Disallow: /
+
+User-agent: CCBot
+Disallow: /
+
+User-agent: FacebookBot
+Disallow: /
